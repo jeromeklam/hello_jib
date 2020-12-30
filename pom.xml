@@ -58,11 +58,13 @@
                         <image>openjdk@sha256:b3e19d27caa8249aad6f90c6e987943d03e915bbf3a66bc1b7f994a4fed668f6</image>
                     </from>
                     <to>
+                        <!--
                         <image>docker.io/${docker.image.prefix}/${project.artifactId}</image>
-                        <credHelper>pass</credHelper>
                         <tags>
                             <tag>${project.version}</tag>
                         </tags>
+                        -->
+                        <image>${docker.image.prefix}.${project.artifactId}</image>
                     </to>
                     <container>
                         <mainClass>org.freeasso.myhellojib.App</mainClass>
